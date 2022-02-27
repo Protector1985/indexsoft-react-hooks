@@ -1,0 +1,1 @@
+export const srv = process.env.NODE_ENV === "production" ? "/AWSHERE" : "http://localhost:5000"
