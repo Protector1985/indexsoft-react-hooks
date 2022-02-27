@@ -1,6 +1,7 @@
 .dateContainer {
     display:flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .datePick {
@@ -16,4 +17,5 @@
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
+    
 }

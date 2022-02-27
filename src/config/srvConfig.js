@@ -1,1 +1,1 @@
-export const srv = process.env.NODE_ENV === "production" ? "/AWSHERE" : "http://localhost:5000"
+export const srv = process.env.NODE_ENV === "production" ? "http://ec2-34-235-125-113.compute-1.amazonaws.com" : "http://localhost:5000"
