@@ -61,7 +61,7 @@ function ModalComponent({open, toggle}) {
     return (
         <div>
             <Modal isOpen={open} toggle={toggle} >
-                <ModalHeader>Modal title</ModalHeader>
+                <ModalHeader>Enter the information below</ModalHeader>
                 <ModalBody>
                     <Form onSubmit={handleSubmit}>
                         <FormGroup>
