@@ -125,8 +125,8 @@ function TableComponent() {
                             </tr>
                         )
                     })}
-                            <tr  onClick={newEntry}>
-                                <th scope="row">+</th>
+                            <tr className={cssModule.row} onClick={newEntry}>
+                                <th>+</th>
                                 <td>{" "}</td>
                                 <td>{" "}</td>
                                 <td>{" "}</td>
